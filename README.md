@@ -14,7 +14,7 @@ User-Friendly Interface: Clear and intuitive controls.
 
 Clone this repository:
 
-git clone https://github.com/yourusername/scavenger-hunt-game.git
+git clone https://github.com/botrov1/scavenger-hunt-game.git
 
 Open the project in Visual Studio Code.
 
