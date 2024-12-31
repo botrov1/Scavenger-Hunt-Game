@@ -1,12 +1,35 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2rGsAIMQ)
-# COE2SH4-PPA3Template
-Project Preparation Activity 3
+🗺️ Scavenger Hunt Game
 
-You must watch the briefing video and read through the manual to engage in the development activities.
+Welcome to the Scavenger Hunt Game! This interactive game challenges players to explore, find hidden items, and solve puzzles to progress.
 
+🚀 Features
 
-Section: [Insert your lab section]
+Engaging Gameplay: Explore a virtual world and search for hidden treasures.
 
-MacID: [Insert your macID here]
+Interactive Challenges: Collect all characters in the mystery string to win.
 
-StudentID: [Insert your numerical student ID here]
+User-Friendly Interface: Clear and intuitive controls.
+
+🛠️ How to Run
+
+Clone this repository:
+
+git clone https://github.com/yourusername/scavenger-hunt-game.git
+
+Open the project in Visual Studio Code.
+
+🎮 How to Play
+
+Use w,a,s,d keys to navigate around the game board.
+
+Interact with objects and solve puzzles.
+
+Collect hidden treasures and complete objectives.
+
+Avoid traps and challenges that may hinder your progress.
+
+📚 Technologies Used
+
+Language: C
+
+Environment: Visual Studio Code
