@@ -1,75 +1,13 @@
 #include <stdio.h>
 #include "MacUILib.h"
-#include "myStringLib.h"   // This is your first custom C library
-// [TODO] Import the required library for rand() and srand()
-// [TODO] Import the required library for accessing the current time - for seeding random number generation
+#include "myStringLib.h"   
 #include <stdlib.h>
 #include <time.h>
-
-
-
-
-
-
-
-
-
-
-
-
-// PREPROCESSOR DIRECTIVE CONSTANTS
-// ================================
-// For program-wide constants, define them here using #define.  Add as seen needed.
-
-
-
-
-// [COPY AND PASTE FROM PPA2] Copy your additional preprocessor constants from PPA2 and paste them below
-
-
-
-
-
-
-
-
-// [TODO] Then, define more constants here as seen needed.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // GLOBAL VARIABLES
 // ================================
 
-
-
-
 int exitFlag; // Program Exiting Flag
-
-
-
-
-// [COPY AND PASTE FROM PPA2] Copy your additional global from PPA2 and paste them below
-
-
-
-
 char frame_array[10][20];
 int cmd;
 int cols=20;
@@ -90,15 +28,12 @@ enum FSMMode myFSMMode;
 enum SPEED{VERYSLOW, SLOW, STEADY, FAST,VERYFAST};
 enum SPEED mySpeed;
 
-// [TODO] Declare More Global Variables as seen needed.
-
 char goal_string[]="McMaster-ECE";//the mystery string
 int moveCount=0;
 int vector[10][20]={0};
 
 
-// [TODO] Declare Global Pointers as seen needed / instructed in the manual.
-//creatinga n array of to hold identical number of characters as the goal strinmg on the heap
+// [TODO] Declare Global Pointers
 char *char_array=NULL;
 struct objPos *posptr;
  
